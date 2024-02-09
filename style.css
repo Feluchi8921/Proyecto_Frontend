@@ -1,0 +1,110 @@
+/*------------------------Header--------------------*/
+header{
+    width: 1519.2px;
+    background-color: #ffffff;
+}
+
+.navbar{
+    font-family: sans-serif;
+    font-size: 14.4px;
+    color: #666666;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    transition: top .5s, transform 0.5s;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+
+.itemNav{
+    width: 756.1px;
+    height: 37.6px;
+}
+
+.socialIcons{
+    width: 215.99px;
+    height: 32px;
+}
+
+.navbar li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.logo img{
+    height: 80px;
+}
+
+/*------------------------Body--------------------*/
+.container{
+    width: 1319.2px;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+img.imgHome{
+    width: 1319.2px;
+}
+
+/*------------------------Important Section--------------------*/
+.items{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: baseline;*/
+}
+.important h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px 0px 8px;
+}
+
+.itemImportant{
+    width: min-content;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+.itemImportant img{
+    object-fit: contain;
+    width: 173.9px;
+    height: 162.4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+p.price, .itemImportant h4{
+    font-family: sans-serif;
+    color: #444444;
+}
+.itemImportant h4{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p.price{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+/*---------------------------About----------------*/
+.about{
+    display: flex;
+    margin: 200px;
+}
